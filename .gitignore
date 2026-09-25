@@ -1,0 +1,5 @@
+# Desktop preview build output (rebuild with extras/preview/build.sh)
+extras/preview/preview
+*.dSYM/
+
+.DS_Store
