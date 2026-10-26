@@ -54,8 +54,8 @@
 // Joystick
 // ============================================================================
 #define JOYSTICK_ENABLED 1
-#define JOY_INVERT_X 0   // defaults match the original sketch's directions
-#define JOY_INVERT_Y 0
+#define JOY_INVERT_X 1   // both flipped for how the stick is mounted in the frame
+#define JOY_INVERT_Y 1
 #define JOY_SWAP_XY 0
 #define JOY_DEADZONE 0.12f  // fraction of full throw ignored around centre
 #define JOY_THROW 0.85f     // fraction of the ADC half-range that counts as "full"
